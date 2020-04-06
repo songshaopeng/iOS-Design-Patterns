@@ -1,2 +1,2 @@
 # iOS-Design-Patterns
-iOS-Design-Patterns with ObjectiveC
+iOS-Design-Patterns with Objective-C

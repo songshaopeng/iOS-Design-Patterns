@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030859742439DBE30072783F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859732439DBE30072783F /* AppDelegate.m */; };
+		030859772439DBE30072783F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859762439DBE30072783F /* SceneDelegate.m */; };
+		0308597A2439DBE30072783F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859792439DBE30072783F /* ViewController.m */; };
+		0308597D2439DBE30072783F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0308597B2439DBE30072783F /* Main.storyboard */; };
+		0308597F2439DBE40072783F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0308597E2439DBE40072783F /* Assets.xcassets */; };
+		030859822439DBE40072783F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030859802439DBE40072783F /* LaunchScreen.storyboard */; };
+		030859852439DBE40072783F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859842439DBE40072783F /* main.m */; };
+		0308598E2439DC130072783F /* AirConditioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0308598D2439DC130072783F /* AirConditioning.m */; };
+		030859912439DC870072783F /* HaierAirConditioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859902439DC870072783F /* HaierAirConditioning.m */; };
+		030859942439DCAA0072783F /* MideaAirConditioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859932439DCAA0072783F /* MideaAirConditioning.m */; };
+		030859972439DCD30072783F /* Washer.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859962439DCD30072783F /* Washer.m */; };
+		0308599A2439DD020072783F /* HaierWasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859992439DD020072783F /* HaierWasher.m */; };
+		0308599D2439DD280072783F /* MideaWasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0308599C2439DD280072783F /* MideaWasher.m */; };
+		030859A02439DD510072783F /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0308599F2439DD510072783F /* AbstractFactory.m */; };
+		030859A32439DD960072783F /* HaierFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859A22439DD960072783F /* HaierFactory.m */; };
+		030859A62439DDD60072783F /* MideaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 030859A52439DDD60072783F /* MideaFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0308596F2439DBE30072783F /* AbstractFactoryPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactoryPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030859722439DBE30072783F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030859732439DBE30072783F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030859752439DBE30072783F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		030859762439DBE30072783F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		030859782439DBE30072783F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		030859792439DBE30072783F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0308597C2439DBE30072783F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0308597E2439DBE40072783F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030859812439DBE40072783F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030859832439DBE40072783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030859842439DBE40072783F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0308598C2439DC130072783F /* AirConditioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirConditioning.h; sourceTree = "<group>"; };
+		0308598D2439DC130072783F /* AirConditioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirConditioning.m; sourceTree = "<group>"; };
+		0308598F2439DC870072783F /* HaierAirConditioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaierAirConditioning.h; sourceTree = "<group>"; };
+		030859902439DC870072783F /* HaierAirConditioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaierAirConditioning.m; sourceTree = "<group>"; };
+		030859922439DCAA0072783F /* MideaAirConditioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MideaAirConditioning.h; sourceTree = "<group>"; };
+		030859932439DCAA0072783F /* MideaAirConditioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MideaAirConditioning.m; sourceTree = "<group>"; };
+		030859952439DCD30072783F /* Washer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Washer.h; sourceTree = "<group>"; };
+		030859962439DCD30072783F /* Washer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Washer.m; sourceTree = "<group>"; };
+		030859982439DD020072783F /* HaierWasher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaierWasher.h; sourceTree = "<group>"; };
+		030859992439DD020072783F /* HaierWasher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaierWasher.m; sourceTree = "<group>"; };
+		0308599B2439DD280072783F /* MideaWasher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MideaWasher.h; sourceTree = "<group>"; };
+		0308599C2439DD280072783F /* MideaWasher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MideaWasher.m; sourceTree = "<group>"; };
+		0308599E2439DD510072783F /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		0308599F2439DD510072783F /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		030859A12439DD960072783F /* HaierFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaierFactory.h; sourceTree = "<group>"; };
+		030859A22439DD960072783F /* HaierFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaierFactory.m; sourceTree = "<group>"; };
+		030859A42439DDD60072783F /* MideaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MideaFactory.h; sourceTree = "<group>"; };
+		030859A52439DDD60072783F /* MideaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MideaFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0308596C2439DBE30072783F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030859662439DBE30072783F = {
+			isa = PBXGroup;
+			children = (
+				030859712439DBE30072783F /* AbstractFactoryPattern */,
+				030859702439DBE30072783F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030859702439DBE30072783F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0308596F2439DBE30072783F /* AbstractFactoryPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030859712439DBE30072783F /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				0308598B2439DBFE0072783F /* Classes */,
+				030859722439DBE30072783F /* AppDelegate.h */,
+				030859732439DBE30072783F /* AppDelegate.m */,
+				030859752439DBE30072783F /* SceneDelegate.h */,
+				030859762439DBE30072783F /* SceneDelegate.m */,
+				030859782439DBE30072783F /* ViewController.h */,
+				030859792439DBE30072783F /* ViewController.m */,
+				0308597B2439DBE30072783F /* Main.storyboard */,
+				0308597E2439DBE40072783F /* Assets.xcassets */,
+				030859802439DBE40072783F /* LaunchScreen.storyboard */,
+				030859832439DBE40072783F /* Info.plist */,
+				030859842439DBE40072783F /* main.m */,
+			);
+			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		0308598B2439DBFE0072783F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0308598C2439DC130072783F /* AirConditioning.h */,
+				0308598D2439DC130072783F /* AirConditioning.m */,
+				0308598F2439DC870072783F /* HaierAirConditioning.h */,
+				030859902439DC870072783F /* HaierAirConditioning.m */,
+				030859922439DCAA0072783F /* MideaAirConditioning.h */,
+				030859932439DCAA0072783F /* MideaAirConditioning.m */,
+				030859952439DCD30072783F /* Washer.h */,
+				030859962439DCD30072783F /* Washer.m */,
+				030859982439DD020072783F /* HaierWasher.h */,
+				030859992439DD020072783F /* HaierWasher.m */,
+				0308599B2439DD280072783F /* MideaWasher.h */,
+				0308599C2439DD280072783F /* MideaWasher.m */,
+				0308599E2439DD510072783F /* AbstractFactory.h */,
+				0308599F2439DD510072783F /* AbstractFactory.m */,
+				030859A12439DD960072783F /* HaierFactory.h */,
+				030859A22439DD960072783F /* HaierFactory.m */,
+				030859A42439DDD60072783F /* MideaFactory.h */,
+				030859A52439DDD60072783F /* MideaFactory.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0308596E2439DBE30072783F /* AbstractFactoryPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030859882439DBE40072783F /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */;
+			buildPhases = (
+				0308596B2439DBE30072783F /* Sources */,
+				0308596C2439DBE30072783F /* Frameworks */,
+				0308596D2439DBE30072783F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactoryPattern;
+			productName = AbstractFactoryPattern;
+			productReference = 0308596F2439DBE30072783F /* AbstractFactoryPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030859672439DBE30072783F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = songShaoPeng;
+				TargetAttributes = {
+					0308596E2439DBE30072783F = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 0308596A2439DBE30072783F /* Build configuration list for PBXProject "AbstractFactoryPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030859662439DBE30072783F;
+			productRefGroup = 030859702439DBE30072783F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0308596E2439DBE30072783F /* AbstractFactoryPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0308596D2439DBE30072783F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030859822439DBE40072783F /* LaunchScreen.storyboard in Resources */,
+				0308597F2439DBE40072783F /* Assets.xcassets in Resources */,
+				0308597D2439DBE30072783F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0308596B2439DBE30072783F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0308598E2439DC130072783F /* AirConditioning.m in Sources */,
+				030859942439DCAA0072783F /* MideaAirConditioning.m in Sources */,
+				030859A32439DD960072783F /* HaierFactory.m in Sources */,
+				030859A02439DD510072783F /* AbstractFactory.m in Sources */,
+				030859A62439DDD60072783F /* MideaFactory.m in Sources */,
+				0308597A2439DBE30072783F /* ViewController.m in Sources */,
+				030859742439DBE30072783F /* AppDelegate.m in Sources */,
+				0308599A2439DD020072783F /* HaierWasher.m in Sources */,
+				030859852439DBE40072783F /* main.m in Sources */,
+				030859972439DCD30072783F /* Washer.m in Sources */,
+				030859772439DBE30072783F /* SceneDelegate.m in Sources */,
+				0308599D2439DD280072783F /* MideaWasher.m in Sources */,
+				030859912439DC870072783F /* HaierAirConditioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0308597B2439DBE30072783F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0308597C2439DBE30072783F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030859802439DBE40072783F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030859812439DBE40072783F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030859862439DBE40072783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		030859872439DBE40072783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030859892439DBE40072783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AbstractFactoryPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = song.AbstractFactoryPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0308598A2439DBE40072783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AbstractFactoryPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = song.AbstractFactoryPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0308596A2439DBE30072783F /* Build configuration list for PBXProject "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030859862439DBE40072783F /* Debug */,
+				030859872439DBE40072783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030859882439DBE40072783F /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030859892439DBE40072783F /* Debug */,
+				0308598A2439DBE40072783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030859672439DBE30072783F /* Project object */;
+}
